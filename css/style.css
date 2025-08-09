@@ -108,7 +108,7 @@ body{
 
 
 .hero{
-    background-image: url(../img/hero_img.jpg);
+    background-image: url('https://res.cloudinary.com/nox-company/image/upload/v1754756873/PineApple%20Service%20Media/hero_img_foyqy0.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;                /* Activa Flexbox */
