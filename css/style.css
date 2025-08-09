@@ -38,10 +38,17 @@ body{
 .contenedor{
     width: 100%;
 }
-.nav{
+.nav {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.nav__contact-group {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
 
 #nav__img{
@@ -57,6 +64,9 @@ body{
     gap: 25px;
     padding: 10px;
     margin-left: 10px;
+}
+#nav__separador{
+    color: rgb(215, 214, 214);
 }
 .nav li{
     list-style: none;
@@ -91,6 +101,8 @@ body{
     margin-right: 15px;
 
 }
+
+
 
 #nav__contact:hover{
 
