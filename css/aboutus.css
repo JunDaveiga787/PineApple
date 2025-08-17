@@ -137,6 +137,7 @@ body{
 }
 .sobrenosotros ol{
     color: white;
+    list-style: none;
 }
 
 #sobrenosotros__svg {
