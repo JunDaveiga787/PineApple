@@ -135,9 +135,16 @@ body{
 #sobrenosotros__p{
     color: white;
 }
-.sobrenosotros ol{
+.sobrenosotros ol {
     color: white;
     list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; /* Añade esta línea */
+    display: table;     /* Añade esta línea para centrar horizontalmente */
+    padding: 0; /* Asegúrate de que no haya padding */
+    
+    
 }
 
 #sobrenosotros__svg {
