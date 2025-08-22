@@ -384,7 +384,7 @@ main.wrap{display:block}
 }
 
 /* small screens tweaks */
-@media(max-width:599px){
+@media(max-width:480px){
   .post-feature{height:180px}
   .gallery figure{flex:1 1 48%}
 }
