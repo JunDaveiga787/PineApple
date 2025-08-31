@@ -409,6 +409,34 @@ main.wrap{display:block}
     margin: 12px 0;
 }
 
+/*tamaño de imagenes*/
+.gallery figure {
+    flex: 1 1 calc(33% - 12px);
+    margin: 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(2,6,23,0.04);
+    /* Aumenta la altura mínima */
+    min-height: 220px;
+}
+.gallery img {
+    width: 100%;
+    height: 220px; /* Aumenta la altura */
+    object-fit: cover;
+    display: block;
+}
+
+/* Para pantallas pequeñas */
+@media(max-width:480px){
+  .gallery img {
+    height: 160px; /* También más grande en móvil */
+  }
+  .gallery figure {
+    min-height: 160px;
+  }
+}
+
 /* ...código existente... */
 
 @media(max-width:480px){
